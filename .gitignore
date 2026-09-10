@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Android artifacts and decoded/rebuilt apps
+*.apk
+*.aab
+*.apks
+*.keystore
+*.jks
+decoded/
+rebuilt/
+build_state/
+apks/
+
+# Local app state / secrets
+.android_smali_gui/
+config.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
